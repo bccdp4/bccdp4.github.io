@@ -1,7 +1,29 @@
-body {
-	background-color: #FFFBEF;	
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
 }
 
-div.container-fluid {
-	background-color: #EFFFF8;
+.footer{
+	background-color: #1A2930
+	padding: 25px;
 }
+
+body {
+	background-color: #1A2930;	
+	color: White
+}
+
+.jumbotron{
+	background-color: #1A2930;
+}
+
+#topline{
+	font-size: 1em;
+}
+
+.row{
+	border-width: 3em;
+	background-color: orange;
+}
+
+
