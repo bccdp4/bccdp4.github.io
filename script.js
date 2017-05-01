@@ -1,8 +1,8 @@
 $(document).ready(function() {
-	$('C++').mouseenter(function() {
-		$('C++').fadeTo('fast', 1);
+	$('kbd').mouseenter(function() {
+		$('kbd').fadeTo('fast', 1);
 	});
-	$('C++').mouseleave(function() {
-		$('C++').fadeTo('fast', 0.5);
+	$('kbd').mouseleave(function() {
+		$('kbd').fadeTo('fast', 0.5);
 	});
 });
