@@ -12,6 +12,11 @@
 	min-height: 55px;
 	padding: 0 15px 5px;
 }
+
+#toplogo{
+	width:275px;
+	height:50px;
+}
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
 	color: #FFF;
 	background-color: #1A2930;
@@ -50,10 +55,14 @@ h1{
 }
 footer{
 	width:100%;
-	background-color: #231f20;
+	background-color: #1A2930;
 	padding: 5%;
 	color: #FFF;
 }
+#contact{
+	text-align: justify;
+}
+
 .fa{
 	padding: 15px;
 	font-size: 25px;
@@ -62,6 +71,12 @@ footer{
 .fa:hover{
 	color: #D5D5D5;
 	text-decoration: none;
+}
+
+#bottomlogo{
+	height:140px;
+	width:114px;
+	padding-right: 0.1em;
 }
 @media (max-width: 900px) {
 	.fa{
