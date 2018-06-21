@@ -22,6 +22,12 @@
 .carousel-caption{
 	top: 50%;
 	transform: translateY(-50%);
-	text-transform: uppercase;
-	
+	text-transform: uppercase;	
+}
+.btn{
+	font-size: 18px;
+	color: #FFF;
+	padding: 12px 22px;
+	background-color: #1A2930;
+	border: 2px solid #FFF;
 }
