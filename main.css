@@ -24,12 +24,25 @@
 	transform: translateY(-50%);
 	text-transform: uppercase;	
 }
+h1{
+	text-shadow: 2px 2px #1A2930;
+}
 .btn{
 	font-size: 18px;
 	color: #FFF;
 	padding: 12px 22px;
 	background-color: #1A2930;
 	border: 2px solid #FFF;
+}
+.description{
+	max-width: 50%;
+	margin: auto;
+	padding: 5px 10px;
+	border: 2px solid #FFF;
+	font-weight: bold;
+	background-color: rgba(26, 41, 48, 0.6);
+	display: none;
+	text-align: justify;
 }
 #icon {
 	max-width: 200px;
