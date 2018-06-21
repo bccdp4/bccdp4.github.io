@@ -28,6 +28,15 @@ body {
 
 * {box-sizing:border-box}
 
+/*Experience Section*/
+#desc1 {
+	display: none;
+}
+#job1:hover #desc1 {
+	display:block;
+}
+
+
 /*Slideshow container*/
 .sldshow-container {
 	max-width: 1000px;
