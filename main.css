@@ -35,7 +35,7 @@ body {
 #job1:hover #desc1 {
 	display:block;
 	text-align: justify;
-	
+	max-width: 20%;
 }
 
 
