@@ -19,4 +19,9 @@
 .navbar-inverse .navbar-nav li a {
 	color: #D5D5D5;
 }
-
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+	
+}
