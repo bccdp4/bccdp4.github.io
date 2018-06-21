@@ -31,7 +31,10 @@
 	background-color: #1A2930;
 	border: 2px solid #FFF;
 }
-
+#icon {
+	max-width: 200px;
+	margin: 1% auto;
+}
 @media (max-width: 600px) {
 	.carousel-caption {
 		display: none;
