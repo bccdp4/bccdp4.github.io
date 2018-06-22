@@ -27,11 +27,14 @@
 }
 .carousel-caption{
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-30%);
+	transform: translateX(-10%);
 	text-transform: uppercase;	
+	width: 75%;
 }
 h1{
 	text-shadow: 2px 2px #1A2930;
+	font-size: 4em;
 }
 .btn{
 	font-size: 18px;
