@@ -17,3 +17,7 @@ function showhide() {
 		z.style.display = "none";
 	}
 }
+
+function openFile() {
+	window.open('Resume-Bryan-Corcoro-2018.pdf');
+}
