@@ -105,7 +105,7 @@ height:100%;
 float:left;
 overflow:hidden;
 position:relative;
-text-align:center;
+text-align:justify;
 cursor:default;
 }
 
@@ -121,7 +121,7 @@ background-color:rgba(10,22,18,0.5);
 -webkit-transition:all .4s ease-in-out;
 transition:all .4s ease-in-out;
 color: #F7CE3E;
-margin: 10px 5px 10px;
+padding: 10px 5px 10px;
 }
 
 .hovereffect img {
@@ -166,9 +166,9 @@ box-shadow:0 0 5px #fff;
 }
 
 .hovereffect:hover img {
--ms-transform:scale(0.9);
--webkit-transform:scale(0.9);
-transform:scale(0.9);
+-ms-transform:scale(0.95);
+-webkit-transform:scale(0.95);
+transform:scale(0.95);
 }
 
 .hovereffect:hover .overlay {
