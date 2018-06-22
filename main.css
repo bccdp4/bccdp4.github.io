@@ -165,9 +165,9 @@ box-shadow:0 0 5px #fff;
 }
 
 .hovereffect:hover img {
--ms-transform:scale(1.2);
--webkit-transform:scale(1.2);
-transform:scale(1.2);
+-ms-transform:scale(0.9);
+-webkit-transform:scale(0.9);
+transform:scale(0.9);
 }
 
 .hovereffect:hover .overlay {
