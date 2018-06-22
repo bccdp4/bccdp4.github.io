@@ -4,8 +4,9 @@
 	background-color: #1A2930;
 	color: #FFF;
 	padding: 1% 0;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	border: 0;
+	font-weight: bold;
 }
 .navbar-brand {
 	float: left;
@@ -52,6 +53,12 @@ h1{
 #icon {
 	max-width: 200px;
 	margin: 1% auto;
+}
+
+#addinfo {
+	/* -webkit-text-stroke-width: 2px; */
+   /* -webkit-text-stroke-color: #1A2930; */
+	color: #0A1612;
 }
 
 footer{
@@ -120,7 +127,7 @@ opacity:0;
 background-color:rgba(10,22,18,0.5);
 -webkit-transition:all .4s ease-in-out;
 transition:all .4s ease-in-out;
-color: #F7CE3E;
+color: #C5C1C0;
 padding: 15px 10px 15px;
 }
 
@@ -136,8 +143,9 @@ text-transform:uppercase;
 color:#fff;
 text-align:center;
 position:relative;
-top: 0.55em;
-font-size:17px;
+top: 0.85em;
+font-size:12px;
+font-weight: bold;
 background:rgba(0,0,0,0.6);
 -webkit-transform:translatey(-100px);
 -ms-transform:translatey(-100px);
@@ -147,13 +155,13 @@ transition:all .2s ease-in-out;
 padding:10px;
 }
 
-.hovereffect h6 {
+.hovereffect p {
 	background:rgba(0,0,0,0.8);
 	position: relative;
-	padding: 15px 10px 10px;
-	font-weight: bold;
+	padding: 10px;
 	-webkit-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
+	font-size: 0.95em;
 }
 .hovereffect a.info {
 text-decoration:none;
