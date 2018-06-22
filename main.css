@@ -53,6 +53,7 @@ h1{
 	max-width: 200px;
 	margin: 1% auto;
 }
+
 footer{
 	width:100%;
 	background-color: #1A2930;
@@ -72,7 +73,9 @@ footer{
 	color: #D5D5D5;
 	text-decoration: none;
 }
-
+#hidden{
+	text-align: left;
+}
 #bottomlogo{
 	height:140px;
 	width:114px;
