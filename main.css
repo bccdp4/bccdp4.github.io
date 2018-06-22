@@ -171,12 +171,13 @@ transform:scale(0.9);
 }
 
 .hovereffect:hover .overlay {
-opacity:1;
+opacity:1.25;
 filter:alpha(opacity=100);
 }
 
 .overlay:hover {
 	width: 75%;
+	text-align: justify;
 }
 
 .hovereffect:hover h2,.hovereffect:hover a.info {
