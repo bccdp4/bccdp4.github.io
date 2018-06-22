@@ -19,5 +19,5 @@ function showhide() {
 }
 
 function openFile() {
-	window.open('Resume-Bryan-Corcoro-2018.pdf');
+	window.location('Resume-Bryan-Corcoro-2018.pdf');
 }
