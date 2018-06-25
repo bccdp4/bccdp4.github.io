@@ -11,12 +11,12 @@
 .navbar-brand {
 	float: left;
 	min-height: 55px;
-	padding: 0 15px 5px;
+	padding: 0 5px;
 }
 
 #toplogo{
-	width:275px;
-	height:50px;
+	width:27em;
+	height:3.5em;
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
 	color: #FFF;
