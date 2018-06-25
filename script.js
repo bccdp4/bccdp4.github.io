@@ -22,19 +22,19 @@ function openFile() {
 	window.location('Resume-Bryan-Corcoro-2018.pdf');
 }
 
-function email() {
+/*function email() {
 	document.getElementById.("error").innerHTML = "Sorry, your email could not be sent at this time.";
 	
-/* 	var userName = document.getElementById("contact").elements[0].value;
+ 	var userName = document.getElementById("contact").elements[0].value;
 	var userEmail = document.getElementById("contact").elements[1].vlaue;
 	var userMessage = document.getElementById("contact").elements[2].value;	
 	
 	var link = "mailto:bryan.corcoro@gmail.com"
 			+ "?cc=" + userEmail
 			+ "?subject" + escape("Message from: " + userName)
-			+ "&body" + escape(userMessage); */
+			+ "&body" + escape(userMessage);
 			
-	// window.location.href = link;
+	 window.location.href = link;
 	
 
-}
+}*/
