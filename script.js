@@ -34,6 +34,14 @@ $(function() {
         }, 300);
     });
 });
+
+function myError() {
+	var userName = document.getElementById("name").value;
+	
+	alert("Hello " + userName + ",\nI'm so sorry, your email could not be sent.\nIn the meantime, please email me directly at bryan.corcoro@gmail.com\n\nThanks!\n-Bryan Corcoro")
+	
+	
+}
 /*function email() {
 	document.getElementById.("error").innerHTML = "Sorry, your email could not be sent at this time.";
 	
