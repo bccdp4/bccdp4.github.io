@@ -23,7 +23,8 @@ function openFile() {
 }
 
 function emailMessage() {
-	alert("I am an alert box!");
+	var userName = document.getElementById("name").value;
+	alert("Hello " + userName + ",\n\nSorry, your email could not be sent.\nIn the meantime, please email me directly at\nbryan.corcoro@gmail.com\n\nThanks!\n-Bryan Corcoro");
 }
 
 $(function() {
