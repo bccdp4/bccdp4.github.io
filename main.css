@@ -179,7 +179,7 @@ text-transform:uppercase;
 color:#fff;
 text-align:center;
 position:relative;
-top: 0.85em;
+top: -1.5em;
 font-size:12px;
 font-weight: bold;
 background:rgba(0,0,0,0.6);
@@ -198,6 +198,7 @@ padding:10px;
 	-webkit-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 	font-size: 0.95em;
+	top: -2.5em;
 }
 .hovereffect a.info {
 text-decoration:none;
