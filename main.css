@@ -245,3 +245,7 @@ transform:translatey(0);
 transition-delay:.2s;
 }
 
+a.suby:link, a.suby:visited{
+	text-decoration: none;
+}
+
