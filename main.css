@@ -14,10 +14,10 @@
 	padding: 0 15px 5px;
 }
 
-#toplogo{
+/* #toplogo{
 	width:25em;
 	height:3em;
-}
+} */
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
 	color: #FFF;
 	background-color: #1A2930;
