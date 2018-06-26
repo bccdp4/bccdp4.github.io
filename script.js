@@ -22,12 +22,6 @@ function openFile() {
 	window.location('Resume-Bryan-Corcoro-2018.pdf');
 }
 
-function myError() {
-	var userName = document.getElementById("name").value;
-	
-	alert("Hello " + userName + ",\nI'm so sorry, your email could not be sent.\nIn the meantime, please email me directly at bryan.corcoro@gmail.com\n\nThanks!\n-Bryan Corcoro")
-}
-
 $(function() {
     var selectedClass = "";
     $(".filter").click(function(){
