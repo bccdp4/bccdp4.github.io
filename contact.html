@@ -13,9 +13,14 @@
 		
 		<script>
 			function myError() {
-				var userName = document.getElementById("name").value;
-				
-				alert("Hello " + userName + ",\nI'm so sorry, your email could not be sent.\nIn the meantime, please email me directly at bryan.corcoro@gmail.com\n\nThanks!\n-Bryan Corcoro");
+				var txt;
+				if(confirm("Yup!")){
+					txt = "Sorry, Error";
+				}
+				else{
+					txt = "Sorry not sorry";
+				}
+				document.getElementById("subMessage").innerHTML = txt;
 			}
 		</script>
 		
@@ -89,10 +94,9 @@
 							<button type="submit" class="btn btn-primary btn-lg"id="submit" name="submit" onclick="myError()">Submit</button>
 						  </div>
 						</div>
-						<p style="color: red;" id="error">
-						</p>
 					  </fieldset>
-					  <p style="color: red;" id="error">
+					  
+					  <p id="subMessage">
 					  </p>
 					  </form>					  
 					  
