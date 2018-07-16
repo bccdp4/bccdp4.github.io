@@ -7,20 +7,27 @@
 	font-size: 1.5em;
 	border: 0;
 	font-weight: bold;
+	
 }
 .navbar-brand {
 	float: left;
 	min-height: 55px;
 	padding: 5px 15px 5px;
+	
 }
 
  #toplogo{
 	width:13em;
 	height:2.25em;
 }
+
+.navbar-inverse {
+	width: 100%;
+}
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
 	color: #FFF;
 	background-color: #1A2930;
+	
 }
 .navbar-inverse .navbar-nav li a {
 	color: #D5D5D5;
