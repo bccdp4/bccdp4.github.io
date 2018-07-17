@@ -257,15 +257,31 @@ a.suby:link, a.suby:visited{
 }
 
 .btn-fb {
-	background-color: #3b5998;
+	background-color: #24292e;
 	color: #fff;
+	position: relative;
+}
+.btn-tw {
+	background-color: #3B5998 ;
+	color: #fff;
+	position: relative;
+}
+.btn-gplus {
+	background-color: #6441A4;
+	color: #fff;
+	position: relative;
+}
+.btn-ins {
+	background-color: #0077B5;
+	color: #fff;
+	position: relative;
 }
 
 .btn-floating {
     -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
     box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
-    width: 47px;
-    height: 47px;
+    width: 53px;
+    height: 53px;
     position: relative;
     z-index: 1;
     vertical-align: middle;
@@ -274,9 +290,18 @@ a.suby:link, a.suby:visited{
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    margin: 10px;
+    margin: 5px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     padding: 0;
     cursor: pointer;
+}
+
+.btn-outline-primary {
+	-webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    border: 2px solid #4285f4!important;
+    background-color: transparent!important;
+    color: #4285f4!important;
+	border-radius: 15%;
 }
